@@ -1,0 +1,13 @@
+<link rel="import" href="/media/js/Polymer/polymer.html">
+
+<polymer-element name="label-polymer"
+         attributes="saludo">
+  <template>
+    <strong>{{saludo}}</strong>
+  </template>
+  <script>
+    Polymer('label-polymer', {
+      saludo: "Hola extraño"
+    });
+  </script>
+</polymer-element>

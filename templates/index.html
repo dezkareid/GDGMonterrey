@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block components %}
+	<link rel="import" href="/media/components/label-polymer.html">
+{% endblock %}
+
+{% block contenido %}
+
+	<label>{{ saludo }}</label>
+	<br/>
+	<label-polymer></label-polymer>
+	<br/>
+	<label-polymer saludo="{{ saludo }}"></label-polymer>
+{% endblock %}
